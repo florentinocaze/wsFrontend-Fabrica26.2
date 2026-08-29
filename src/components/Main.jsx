@@ -9,8 +9,8 @@ function Main() {
                 <h1>OVERWATCH HEROES</h1>
                 
                 <div className="overwatch-links">
-                    <a href="https://overwatch.blizzard.com/" target="_blank">JOGUE OVERWATCH 2</a>
-                    <a href="https://overwatch.fandom.com/wiki/Overwatch_2" target="_blank">OVERWATCH WIKI</a>
+                    <a href="https://overwatch.blizzard.com/" target="_blank" rel="noopener noreferrer">JOGUE OVERWATCH 2</a>
+                    <a href="https://overwatch.fandom.com/wiki/Overwatch_2" target="_blank" rel="noopener noreferrer">OVERWATCH WIKI</a>
                 </div>
             </div>
         </main>
