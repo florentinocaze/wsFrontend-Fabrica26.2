@@ -19,5 +19,6 @@
 }
 
 body {
+  background-color: var(--color-light-grey-1);
   font-family: var(--font-poppins);
 }

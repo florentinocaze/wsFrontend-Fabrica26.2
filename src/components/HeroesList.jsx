@@ -34,7 +34,11 @@ function HeroesList() {
 
   if (error) return <p>{error}</p>;
 
-  const filteredHeroes = heroes.filter(hero => hero.name.toLowerCase().includes(search.toLowerCase())).filter(hero => activeRoles.includes(hero.role));
+  const filteredHeroes = heroes
+    .filter(hero => hero.name.toLowerCase()
+      .includes(search.toLowerCase()))
+    .filter(hero => activeRoles
+      .includes(hero.role));
 
   function handleSearchChange(value) {
     setSearch(value);
@@ -56,14 +60,14 @@ function HeroesList() {
   const pageHeroes = filteredHeroes.slice(startIndex, startIndex + heroesPerPage);
 
   return (
-    <section>
-      <h2>HERÓIS</h2>
+    <section className="flex flex-col my-16 text-center text-dark-blue-3 justify-center items-center">
+      <h2 className="mb-8 text-dark-blue-1 text-5xl font-extrabold text-shadow-sm">HERÓIS</h2>
 
       <SearchBar onSearchChange={handleSearchChange} />
 
       <RolesFilter activeRoles={activeRoles} onCheckboxChange={handleRoleFilterChange} />
      
-      <div className="heroes-list">
+      <div className="heroes-list mx-8 grid grid-cols-4 text-center justify-items-center items-center">
         {pageHeroes.map((hero) => (
           <HeroCard key={hero.key} hero={hero} />
         ))}
