@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer p-16 bg-linear-to-r from-dark-blue-3 to bg-dark-blue-1 text-light-grey-2 border-t border-dark-grey">
       <div className="footer-container mb-4 gap-16 lg:grid grid-cols-4">
         <section className="footer-section col-span-2 mb-8 lg:mb-0">
-          <h3 className="mb-4 text-lg font-bold text-white">Sobre o Overwatch Heroes</h3>
+          <h3 className="mb-4 text-lg font-bold text-white">Sobre o Heróis do Overwatch</h3>
 
           <p>Aplicação web interativa para busca de heróis relacionados ao jogo online <strong>Overwatch</strong>. Projeto com fins educacionais, desenvolvido com o objetivo de cumprir o desafio proposto pelo <em>Workshop Front-end 2026.2</em> do projeto de extensão Fábrica de Software, vinculado ao <strong>Centro Universitário de João Pessoa (UNIPÊ)</strong>.</p>
         </section>
@@ -35,7 +35,7 @@ function Footer() {
         </section>
       </div>
       
-      <small className="mt-8 font-bold text-white">© 2026 Overwatch Heroes. Todos os direitos reservados.</small>
+      <small className="mt-8 font-bold text-white">© 2026 Heróis do Overwatch. Todos os direitos reservados.</small>
     </footer>
   );
 }
