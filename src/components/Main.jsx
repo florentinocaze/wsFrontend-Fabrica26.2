@@ -2,7 +2,7 @@ import MainImage from "../assets/main-image.jpg"
 
 function Main() {
     return (
-        <main className="flex flex-col justify-center items-center w-full h-screen border border-dark-grey">
+        <main className="flex flex-col justify-center items-center w-full h-screen border-b border-dark-grey">
             <img className="main-image absolute -z-1 w-screen h-screen" src={MainImage} />
 
             <div className="main-container w-4xl h-3/4 gap-16 flex flex-col text-center justify-center items-center rounded-sm bg-light-grey-3">
