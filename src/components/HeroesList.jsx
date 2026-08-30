@@ -67,7 +67,7 @@ function HeroesList() {
 
       <RolesFilter activeRoles={activeRoles} onCheckboxChange={handleRoleFilterChange} />
      
-      <div className="heroes-list mx-8 grid grid-cols-4 text-center justify-items-center items-center">
+      <div className="heroes-list mx-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-center justify-items-center items-center">
         {pageHeroes.map((hero) => (
           <HeroCard key={hero.key} hero={hero} />
         ))}

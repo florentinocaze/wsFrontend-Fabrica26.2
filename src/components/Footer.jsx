@@ -1,25 +1,25 @@
 function Footer() {
     return (
     <footer className="footer p-16 bg-linear-to-r from-dark-blue-3 to bg-dark-blue-1 text-light-grey-2 border-t border-dark-grey">
-      <div className="footer-container mb-4 gap-16 grid grid-cols-3">
-        <section className="footer-section">
+      <div className="footer-container mb-4 gap-16 lg:grid grid-cols-4">
+        <section className="footer-section col-span-2 mb-8 lg:mb-0">
           <h3 className="mb-4 text-lg font-bold text-white">Sobre o Overwatch Heroes</h3>
 
           <p>Aplicação web interativa para busca de heróis relacionados ao jogo online <strong>Overwatch</strong>. Projeto com fins educacionais, desenvolvido com o objetivo de cumprir o desafio proposto pelo <em>Workshop Front-end 2026.2</em> do projeto de extensão Fábrica de Software, vinculado ao <strong>Centro Universitário de João Pessoa (UNIPÊ)</strong>.</p>
         </section>
 
-        <section className="footer-section flex flex-col">
+        <section className="footer-section flex flex-col mb-8 lg:mb-0">
           <h3 className="mb-4 text-lg font-bold text-white">Links úteis</h3>
 
-          <a href="https://overfast-api.tekrop.fr/" className="mb-4 hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">Overfast API</a>
-          <a href="https://overwatch.blizzard.com/" className="mb-4 hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">Overwatch 2</a>
-          <a href="https://www.blizzard.com/" className="mb-4 hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">Blizzard</a>
+          <a href="https://overfast-api.tekrop.fr/" className="mb-2 hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">Overfast API</a>
+          <a href="https://overwatch.blizzard.com/" className="mb-2 hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">Overwatch 2</a>
+          <a href="https://www.blizzard.com/" className="hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">Blizzard</a>
         </section>
 
         <section className="footer-section">
           <h3 className="mb-4 text-lg font-bold text-white">Contato</h3>
 
-          <div className="social-icons flex flex-row gap-8">
+          <div className="social-icons flex flex-row gap-8 mb-8 lg:mb-0">
             <a href="mailto:florentinocaze@gmail.com" className="social-links">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="ionicon w-10 hover:text-white hover:scale-110 transition-transform duration-300"><rect width="416" height="320" x="48" y="96" rx="40" ry="40" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32px"/><path d="m112 160 144 112 144-112" fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32px"/></svg>
             </a>
@@ -35,7 +35,7 @@ function Footer() {
         </section>
       </div>
       
-      <small className="font-bold text-white">© 2026 Overwatch Heroes. Todos os direitos reservados.</small>
+      <small className="mt-8 font-bold text-white">© 2026 Overwatch Heroes. Todos os direitos reservados.</small>
     </footer>
   );
 }
