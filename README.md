@@ -25,10 +25,10 @@ Pré-requisito: [Node.js](https://nodejs.org/) instalado.
  
 ```bash
 # Clone o repositório
-git clone https://github.com/florentinocaze/wsFrontend-Fabrica26.2.git
+git clone https://github.com/florentinocaze/herois-do-overwatch.git
  
 # Acesse a pasta do projeto
-cd wsFrontend-Fabrica26.2
+cd herois-do-overwatch
  
 # Instale as dependências
 npm install
